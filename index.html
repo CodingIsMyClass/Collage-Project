@@ -1,167 +1,47 @@
 <html>
-    <p>
-        How to declare the arrays ? 
-        <h4 id="declaration_of_arrays"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to fetch the first element of the array ?
-        <h4 id="access_first_element"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to fetch the second element of the array ?
-        <h4 id="access_second_element"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to fetch the third element of the array ?
-        <h4 id="access_third_element"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to get the length of the array ?
-        <h4 id="display_length_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to loop the array array ?
-        <h4 id="loop_the_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to add element at the end of the array ?
-        <h4 id="add_element_at_the_end_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to add more element at the end of the array ?
-        <h4 id="add_more_element_at_the_end_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to declare the arrays with alphabets ? 
-        <h4 id="display_alphabets_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to sort the arrays with alphabets ? 
-        <h4 id="display_sorted_alphabets_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to reverse the arrays with alphabets ? 
-        <h4 id="display_reverse_array"> 
-        </h4>
-    </p>
-<hr>      
-    <p>
-        How to declare the arrays with numbers ? 
-        <h4 id="display_number_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to find the maximum number from the arrays ? 
-        <h4 id="display_maximum_number"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to find the minimum number from the arrays ? 
-        <h4 id="display_minimum_number"> 
-        </h4>
-    </p>
 
-    <h3 style="background-color: red; font-size: 23px;">
-        ADDITIONAL ACTIVITY
-    </h3>
-    <p>
-        How to add element at the start of the array ? Hint use unshift method
-        <h4 id="add_element_at_the_start_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to add more element at the start of the array ? Hint use unshift method
-        <h4 id="add_more_element_at_the_start_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to remove element from the start of the array ? Hint use shift method
-        <h4 id="remove_element_from_start_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to remove element from the end of the array ? Hint use pop method
-        <h4 id="remove_element_from_end_of_array"> 
-        </h4>
-    </p>
-<hr>
-    <p>
-        How to merge two arrays ? Hint define two arrays and then use concat method for eg - array1.concat(array2)
-        <h4 id="merge_two_arrays"> 
-        </h4>
-    </p>
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
 
-    //How to declare the arrays ? the id to be refer for innerHTML is declaration_of_arrays
+</head>
 
-    //How to fetch the first element of the array ? the id to be refer for innerHTML is access_first_element
+<body>
+<center>
+    <h1>Collage Web App</h1>
+    <hr>
+    <h4>As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+    <h3>Say "selfie" to taek the pictures and create a collage!</h3>
+    <button class="btn-lg btn-warning" onclick="start()">Start</button>
+    <h4>Press the start button.></button></h4>
 
-    //How to fetch the second element of the array ? the id to be refer for innerHTML is access_second_element
+    <label>Your Webcam:</label>
+    <div id="camera"></div>
 
-    //How to fetch the third element of the array ? the id to be refer for innerHTML is access_third_element
+    <br>
 
-    //How to get the length of the array ? the id to be refer for innerHTML is display_length_of_array
+    <h2>Your Selfie Will Appear Here:</h2>
+    <br>
+    <div id="resultShow">
+<div id="result_1">
+    <img src="https://d2studios.net/wp-content/uploads/blog/2016/03/sunset.jpg" style="width:30%">
+</div>
 
-    //How to loop the array ? the id to be refer for innerHTML is loop_the_array
+<div id="result_2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSK3nqqjG7bgF2lRv4hQxplBCtJEj4jfl6Jw&usqp=CAU" style="width:30%">
+</div>
 
-    //adding element at the end of the array using push method
-    //How to add element at the end of the array ? the id to be refer for innerHTML is add_element_at_the_end_of_array
+<div id="result_3">
+    <img src="https://imageio.forbes.com/blogs-images/laurabegleybloom/files/2018/06/Bali-Sunset-JetsetChristina-Single-Fin-Uluwatu-Bali-1200x900.jpg?height=533&width=711&fit=bounds" style="width:30%">
+</div>
 
-    //How to more elements at the end of the array ? the id to be refer for innerHTML is add_more_element_at_the_end_of_array
+</div>
+</center>
+</body>
 
-    //How to declare array with alphabets ? the id to be refer for innerHTML is display_alphabets_array
-
-    //How to sort array with alphabets ? the id to be refer for innerHTML is display_sorted_alphabets_array
-
-    //How to reverse the array ? the id to be refer for innerHTML is display_reverse_array
-
-    //How to declare array with numbers ? the id to be refer for innerHTML is display_number_array
-
-    //How to find the maximum number from the array with numbers ? the id to be refer for innerHTML is display_maximum_number
-
-    //How to find the minimum number from the array with numbers ? the id to be refer for innerHTML is display_minimum_number
-
-    console.log("ADDITIONAL ACTIVITY");
-
-    //Use unshift method to add element at the start of the array . the id to be refer for innerHTML is add_element_at_the_start_of_array
-
-    //Use unshift method to add more elements at the start of the array . the id to be refer for innerHTML is add_more_element_at_the_start_of_array
-
-    //Use shift method to remove elements from the start of the array . the id to be refer for innerHTML is remove_element_from_start_of_array
-
-    //Use pop method to remove elements from the end of the array . the id to be refer for innerHTML is remove_element_from_end_of_array
-
-    //How declare array with first world country ? 
-
-    //How declare array with second world country ? 
-
-    //use concat method to merge two arrays . the id to be refer for innerHTML is merge_two_arrays
-
-</script>
 </html>
